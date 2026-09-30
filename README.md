@@ -15,3 +15,7 @@ Costo = horas × ARS 200 + gramos × costo por kilo / 1000 × (1 + pérdida / 10
 5. Instalar dependencias con `npm ci`, ejecutar `npm run build` y desplegar. Las tablas se crean al primer acceso con DB configurada.
 
 Las fotos cargadas se guardan en Blob; la URL se guarda en Postgres. El logo proviene del catálogo aportado por el usuario. El proyecto no incorpora los productos ni las fotos del catálogo previo.
+
+## Despliegue desde GitHub
+
+Con el repositorio conectado al proyecto `sudvenirs` en Vercel, los nuevos commits en `main` inician el despliegue de producción automáticamente. Verificar el estado en Deployments y configurar las variables de entorno antes de usar el administrador.
